@@ -1,0 +1,9 @@
+
+
+alembic revision --autogenerate -m "add last_login to users"
+
+alembic upgrade head
+
+alembic history
+
+alembic current
